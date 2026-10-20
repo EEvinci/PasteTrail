@@ -1,8 +1,10 @@
-# Pastory 开发约定
+# PasteTrail · 贴迹 开发约定
 
 > 给贡献者和未来的自己看的规则本。面向用户的介绍在仓库根目录的 [README.md](../README.md)（中文）/ [README.en.md](../README.en.md)。
 
-Pastory 是 macOS 15+ 的菜单栏工具：剪贴板历史面板 + 截图标注 / 识别文字 / 区域录屏。SwiftPM，AppKit + SwiftUI，只用 Apple 框架和系统 libsqlite3，没有第三方依赖。
+PasteTrail · 贴迹 是 macOS 15+ 的菜单栏工具：剪贴板历史面板 + 截图标注 / 识别文字 / 区域录屏。SwiftPM，AppKit + SwiftUI，只用 Apple 框架和系统 libsqlite3，没有第三方依赖。
+
+> 命名说明：本文以 PasteTrail 为项目名称。当前代码中的 `Sources/Pastory/`、构建产物 `Pastory.app`、数据目录及 `PASTORY_*` 环境变量尚未更名，下文保留这些实际标识，确保路径和命令可用。
 
 ## 目录
 
